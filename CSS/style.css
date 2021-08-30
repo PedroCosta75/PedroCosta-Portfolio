@@ -1,0 +1,116 @@
+/* Index */
+
+h1 {
+    color: rgb(192, 35, 35);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 46px;
+}
+
+.nav {
+    background-color: black;
+    padding: 6px;
+}
+
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav li {
+    display: inline;
+}
+
+body {
+    background-image: url(../Images/webdev.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    opacity: 0.8;
+}
+
+.content h2 {
+    position: absolute;
+    bottom: 4em;
+    text-align: left;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.content h3 {
+    position: absolute;
+    bottom: 3.5em;
+    text-align: left;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    color: whitesmoke;
+}
+
+/*Education*/
+
+.p {
+    color: white;
+    line-height: 2;
+}
+
+.p a {
+    color:rgb(192, 35, 35);
+}
+
+.content2 h2{
+    text-align: left;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+/*Contact*/
+.modal-parent {
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 100%;
+   display: none;
+
+}
+.modal {
+    background: white;
+    width: 70%;
+    padding: 30px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    animation: 1s drop;
+}
+@keyframes drop {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 50%;
+    }
+}
+.X {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
